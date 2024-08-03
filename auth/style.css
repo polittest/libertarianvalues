@@ -1,4 +1,4 @@
-html {
+.html {
     background: linear-gradient(180deg, rgba(14,130,168,1) 0%, rgba(206,125,125,1) 100%);
     padding: 0px;
 }
@@ -173,52 +173,52 @@ canvas {
 
 /* AUTH */
 div.autocracy {
-    background-color: #ff9900;
+    background-color: #900090;
     text-align: right;
     border-left-style: solid;
 }
 div.oligarchy {
-    background-color: #900090;
+    background-color: #ff9900;
     text-align: left;
     border-right-style: solid;
 }
 div.economic {
-    background-color: #D50000;
+    background-color: #008060;
     text-align: right;
     border-left-style: solid;
 }
 div.civilvalue {
-    background-color: #008060;
+    background-color: #D50000;
     text-align: left;
     border-right-style: solid;
 }
 div.populism {
-    background-color: #c00080;
+    background-color: Teal;
     text-align: right;
     border-left-style: solid;
 }
 div.elitism {
-    background-color: Teal;
+    background-color: #c00080;
     text-align: left;
     border-right-style: solid;
 }
 div.deterrence {
-    background-color: DeepSkyBlue;
+    background-color: DarkOrange;
     text-align: right;
     border-left-style: solid;
 }
 div.prevention {
-    background-color: DarkOrange;
+    background-color: DeepSkyBlue;
     text-align: left;
     border-right-style: solid;
 }
 div.uniform {
-    background-color: #540063;
+    background-color: #002C25;
     text-align: right;
     border-left-style: solid;
 }
 div.diverse {
-    background-color: #002C25;
+    background-color: #540063;
     text-align: left;
     border-right-style: solid;
 }
@@ -228,22 +228,22 @@ div.diversity {
     border-right-style: solid;
 }
 div.ruleover {
-    background-color: RebeccaPurple;
+    background-color: ForestGreen;
     text-align: right;
     border-left-style: solid;
 }
 div.ruleunder {
-    background-color: ForestGreen;
+    background-color: RebeccaPurple;
     text-align: left;
     border-right-style: solid;
 }
 div.hereditary {
-    background-color: OrangeRed;
+    background-color: RosyBrown;
     text-align: right;
     border-left-style: solid;
 }
 div.bestsuited {
-    background-color: RosyBrown;
+    background-color: OrangeRed;
     text-align: left;
     border-right-style: solid;
 }
