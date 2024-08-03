@@ -1,6 +1,6 @@
 questions = [
 
-//[1] Autocracy
+//[1] Horizontality
     { "question": "It's best if a single person has unlimited power over government.", "effect":{
     "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
@@ -19,7 +19,7 @@ questions = [
     { "question": "Autocracy is often suprerior to Democracy.", "effect":{
     "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-// [1] Oligarchy 
+// [1] Hierarchy
     { "question": "Modern democracies are better than Absolute Monarchies.", "effect":{
     "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -35,7 +35,7 @@ questions = [
     { "question": "Checks-and-balances or Bureacracy are needed for a good government.", "effect":{
     "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
- //[2] Socialism (Economic)
+ //[2] Communist 
     { "question": "Corporations are inherently evil.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -57,7 +57,7 @@ questions = [
     { "question": "Socialism is the only system which will respond to people’s needs.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
- //[2] Capitalism (Civil)
+ //[2] Propertarian
     { "question": "Communism or Socialism never worked, and never will work.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -79,7 +79,7 @@ questions = [
      { "question": "The survival of the fittest is an ordinary, and we shouldn't stop it.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
-//[3] Populism
+//[3] Planning
     { "question": "The people can make a government function, but they can also overthrow a government.", "effect":{
     "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -95,7 +95,7 @@ questions = [
     { "question": "Democracy is good.", "effect":{
     "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-//[3] Elitism
+//[3] Markets
     { "question": "The ordinary citizen is too foolish to choose a path for the nation.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -111,7 +111,7 @@ questions = [
     { "question": "Citizens who don't listen to the government are often just rebellious and uncooperative people.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-//[4] Deterrence
+//[4] Internationalism
     { "question": "A person is innocent until proven guilty.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -127,14 +127,14 @@ questions = [
     { "question": "The possibility of crime should be lowered by the fear or getting punished.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-//[4] Prevention
+//[4] Nation
     { "question": "If a person is acting very suspiciously, it's safer to punish or re-educate that person.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Waiting for a person to commit a crime is immoral.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-//[5] Uniform
+//[5] Statism
     { "question": "A nation should share a common culture and way of life.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -147,7 +147,7 @@ questions = [
     { "question": "I support a theocracy of some degree.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-//[5] Diverse
+//[5] Acracy
     { "question": "Diversity is important and good.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
@@ -170,7 +170,7 @@ questions = [
     { "question": "Religion and Government are interconnected.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
 
-//[6] Irreligion (Rule-Under)
+//[6] Progress
     { "question": "All religions are false.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
@@ -188,9 +188,26 @@ questions = [
     
     { "question": "I believe in the seperation of church and state.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
+  //[6] Tradition
+    { "question": "All religions are false.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
+    { "question": "State Atheism is good.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
+  
+    { "question": "Atheism should be mandated.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
     
-//[7] Hereditary
+    { "question": "I agree with the religious policies of regimes like the USSR.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
+  
+    { "question": "I support Anti-Theism.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},   
+    
+    { "question": "I believe in the seperation of church and state.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
+    
+//[7] Revolution 
     { "question": "A good ruler deserves to let his realtives suceed him in leadership.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
   
@@ -203,7 +220,7 @@ questions = [
     { "question": "Leaders usually share similar ideological beliefs with their sons or daughters.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
   
-//[7] Best-Suited
+//[7] Reform
     { "question": "The most suitable or most intellegent should rule.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
   
