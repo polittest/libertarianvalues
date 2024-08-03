@@ -1,8 +1,8 @@
 questions = [
 
 //[1] Horizontality
-    { "question": "We should dismantle hierarchies.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "All hierarchies must be questioned.", "effect":{
+    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
     { "question": "Worker's self management is a good idea.", "effect":{
     "olig": 10, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -84,6 +84,9 @@ questions = [
 //[3] Planning
     { "question": "Decentrally planned economy is better than market economy.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
+    { "question": "Mixed economy is better than a free market one.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Market economies are inefficient.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -107,94 +110,81 @@ questions = [
     "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[4] Internationalism
-    { "question": "A person is innocent until proven guilty.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "A person can only be punished if he is rightfully proven to have broken the law.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "I somewhat agree with the Non-Aggression Principle.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "I prefer rehabilitation over punishment.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-    { "question": "The possibility of crime should be lowered by the fear or getting punished.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+    { "question": "We must support libertarian movements abroad.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    
+    { "question": "Truly libertarian society would be international.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "International borders should be open if they exist at all", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
+{ "question": "World federalism is generally good idea.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
 //[4] Nation
-    { "question": "If a person is acting very suspiciously, it's safer to punish or re-educate that person.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "I oppose state interventionism in other countries.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Waiting for a person to commit a crime is immoral.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+      
+    { "question": "National liberation is important.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+{ "question": "Countries, communes or similar should be allowed to act as gated communities for certain cultures", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+{ "question": "Global free trade is generally bad.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
 //[5] Statism
-    { "question": "A nation should share a common culture and way of life.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "No Government, if there even is one, should bailout corporate power.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Religion and Political Belief should be mandated.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+   
   
-    { "question": "People who do not follow the state religion (if one exists) should be punished.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Strong state is necessary to protect liberty.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "I support a theocracy of some degree.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Unitary government is better than federal one.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[5] Acracy
-    { "question": "Diversity is important and good.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "I believe in the freedom of religion and the freedom of thought.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "A government that mandates a way of life is evil.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Ideally government would not exist.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+{ "question": "Police and other hierarchical law and justice organizations should be abolished.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+{ "question": "People can take care of each other without help or protection from government.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "We should abolish taxes.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  { "question": "If state exists, it should be minimal as possible.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Law should be less complex, if it exists at all.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[6] Theocracy (Rule-Over)
-    { "question": "The church and state should not be seperated.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+    { "question": "You cannot be a libertarian, without striving towards social progress.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Without religion, a society is nothing..", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+    { "question": "Tradition for sake of itself is worth nothing.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "The Enlightenment was a mistake.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+    { "question": "I support transhumanism.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Religion and Government are interconnected.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+    { "question": "Culture should be more secular.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
 
-//[6] Progress
-    { "question": "All religions are mostly fiction.", "effect":{
+{ "question": "We should reject or reform restrictive traditions and authoritarian aspects of our culture.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
+
+//[6] Progress 
+    { "question": "Local culture is important.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -20, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Progress is important.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "We should reform or.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-    
-    { "question": "I agree with the religious policies of regimes like the USSR.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "I support Anti-Theism.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},   
-    
-    { "question": "I believe in the seperation of church and state.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-  //[6] Tradition
-    { "question": "All religions are false.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "State Atheism is good.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "Atheism should be mandated.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
-    
-    { "question": "I agree with the religious policies of regimes like the USSR.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
+    { "question": "Progress for sake of itself is pointless.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+     { "question": "We should return to pre-liberal pre-capitalist way of living.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -20, "bestsuit": 0, "disun": 0 }},
   
     
     
