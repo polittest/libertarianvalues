@@ -2,7 +2,7 @@ questions = [
 
 //[1] Horizontality
     { "question": "It's best if a single person has unlimited power over government.", "effect":{
-    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 10, "elit": 10, "preve": 10, "diver": 10, "ruleund": 10, "bestsuit": 10, "disun": 0 }},
 
     { "question": "A democracy is ineffecient and slow.", "effect":{
     "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
