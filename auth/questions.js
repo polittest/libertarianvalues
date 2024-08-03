@@ -1,115 +1,110 @@
 questions = [
 
 //[1] Horizontality
-    { "question": "It's best if a single person has unlimited power over government.", "effect":{
-    "olig": 0, "civil": 10, "elit": 10, "preve": 10, "diver": 10, "ruleund": 10, "bestsuit": 10, "disun": 0 }},
+    { "question": "We should dismantle hierarchies.", "effect":{
+    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
-    { "question": "A democracy is ineffecient and slow.", "effect":{
-    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Worker's self management is a good idea.", "effect":{
+    "olig": 10, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-    { "question": "Oligarchies are ineffecient.", "effect":{
-    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Workers should have more say in the workplace.", "effect":{
+    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-    { "question": "The revolutions within the Age of Revolution was generally disastrous towards the world as a whole.", "effect":{
-    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "An Absolute Monarchy is more preferable than a representative democracy.", "effect":{
-    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "Autocracy is often suprerior to Democracy.", "effect":{
-    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "There should be no managers with authority over workers.", "effect":{
+    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 // [1] Hierarchy
-    { "question": "Modern democracies are better than Absolute Monarchies.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Co-operatives are worse than traditional business model.", "effect":{
+    "olig": -10, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Although it's better than an Autocracy, oligarchies are still coercive.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Workers should not be given too much autonomy or they’ll be lazy.", "effect":{
+    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
+{ "question": "There is nothing wrong in using forced labour.", "effect":{
+    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Freedom and Liberty is important to me.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Not everyone should be allowed to make economic decisions.", "effect":{
+    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Regimes like China or North Korea are evil and/or genocidal.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Slavery if made by voluntary contract is compatible with libertarianism.", "effect":{
+    "olig": -10, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Checks-and-balances or Bureacracy are needed for a good government.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Top down structures for organisations work best.", "effect":{
+    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
  //[2] Communist 
-    { "question": "Corporations are inherently evil.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "We should abolish money.", "effect":{
+    "olig": 0, "civil": 10, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Socialism is fairer for everyone than the current economic system.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
+    { "question": "Land should be free to use for everyone.", "effect":{
+    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  { "question": "Collective or communal agriculture is better than private or individual one.", "effect":{
+    "olig": 0, "civil": 10, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     { "question": "Rent is comparable to theft.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "Most of the problems we face today is caused by Capitalism.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "Economic class would not exist in an ideal society.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-    
-    { "question": "People who are unable to work should be cared for by the state.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-    
-    { "question": "Socialism is the only system which will respond to people’s needs.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
- //[2] Propertarian
-    { "question": "Communism or Socialism never worked, and never will work.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Capitalism encourages innovation.", "effect":{
+    { "question": "From each according to his ability, to each according to his needs.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "Capitalism is the most efficient economic system by far.", "effect":{
-    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "People get unproductive under Socialism.", "effect":{
-    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "The government should cooperate with big businesses to some degree.", "effect":{
+  { "question": "Wage labour should be less common, if not fully abolished.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-    { "question": "Labor unions should be heavily restricted, if not banned.", "effect":{
+    
+    { "question": "Mutual aid and/or welfare is generally better than charity.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    
+    { "question": "Private productive property should be abolished.", "effect":{
+    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+{ "question": "Inheritance of anything that is not personal possession is illegitimate.", "effect":{
+    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+ //[2] Propertarian here theft revolution
+    { "question": "Without property rights there are no rights at all.", "effect":{
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+    { "question": "Theft can never be justified.", "effect":{
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
+ { "question": "Capitalists should get their share of profit, because they took risk.", "effect":{
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+    { "question": "If someone owns a piece of land, they should be able to set own rules on it.", "effect":{
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+    { "question": "Private property should be foundation of our economy.", "effect":{
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+   
+    
+    { "question": "Independent labor organizations shouldn't be allowed to exist without employer's consent.", "effect":{
+    "olig": -10, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
      { "question": "The survival of the fittest is an ordinary, and we shouldn't stop it.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
 //[3] Planning
-    { "question": "The people can make a government function, but they can also overthrow a government.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Decentrally planned economy is better than market economy.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "The government should persuade the people, not force the people.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Market economies are inefficient.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "The recent rise of Left-Wing and Right-Wing Populism is mostly beneficial.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "The government should be close to the people, these two things cannot be seperated.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-  
-    { "question": "Democracy is good.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    
   
 //[3] Markets
-    { "question": "The ordinary citizen is too foolish to choose a path for the nation.", "effect":{
-    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "The market will regulate itself.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "If the people are not persuaded, force and oppression is justified.", "effect":{
-    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Trade between individuals should be the basis of our economy.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "The ruling elite has nothing to do with the lower or middle class.", "effect":{
-    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Economic planning will always lead to authoritarianism.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "The Enlightenment was a mistake.", "effect":{
-    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Mixed economy is better than a fully planned one.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Citizens who don't listen to the government are often just rebellious and uncooperative people.", "effect":{
-    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Prices should be determined by supply and demand.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[4] Internationalism
     { "question": "A person is innocent until proven guilty.", "effect":{
@@ -171,13 +166,13 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
 
 //[6] Progress
-    { "question": "All religions are false.", "effect":{
+    { "question": "All religions are mostly fiction.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "State Atheism is good.", "effect":{
+    { "question": "Progress is important.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Atheism should be mandated.", "effect":{
+    { "question": "We should reform or.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
     
     { "question": "I agree with the religious policies of regimes like the USSR.", "effect":{
@@ -201,11 +196,7 @@ questions = [
     { "question": "I agree with the religious policies of regimes like the USSR.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "I support Anti-Theism.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},   
     
-    { "question": "I believe in the seperation of church and state.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 10, "bestsuit": 0, "disun": 0 }},
     
 //[7] Revolution 
     { "question": "A good ruler deserves to let his realtives suceed him in leadership.", "effect":{
