@@ -215,7 +215,7 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
     
 //[8] Unity
-    { "question": Libertarians should work toghether for a common goal.", "effect":{
+    { "question": "Libertarians should work toghether for a common goal.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": -10 }},
   
     { "question": "Issues related to personal freedom are more significant than economic and cultural issues.", "effect":{
