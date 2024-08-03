@@ -62,7 +62,7 @@ questions = [
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Theft can never be justified.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
 
  { "question": "Capitalists should get their share of profit, because they took risk.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -139,10 +139,11 @@ questions = [
     { "question": "No Government, if there even is one, should bailout corporate power.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-   
+   { "question": "Bureaucracy is necessary for libertarianism.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Strong state is necessary to protect liberty.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 20, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Unitary government is better than federal one.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -189,49 +190,48 @@ questions = [
     
     
 //[7] Revolution 
-    { "question": "A good ruler deserves to let his realtives suceed him in leadership.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
+    { "question": "Reform doesn't work towards change.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
   
-    { "question": "A hereditary monarchy is better for a nation than a democracy or technocracy.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
+    { "question": "We should use direct action, sabotage and even violence.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
   
-    { "question": "A powerful hereditary monarchy is not as bad as most people think.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
+    { "question": "Any Violence against undesirable people is acceptable as long as it helps revolutionary motion.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
   
-    { "question": "Leaders usually share similar ideological beliefs with their sons or daughters.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
+    { "question": "Revolution is the most successful way of achieving a fully Libertarian society.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
   
 //[7] Reform
-    { "question": "The most suitable or most intellegent should rule.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
+    { "question": "Rapid systematic change only results in worse outcomes.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
   
-    { "question": "A hereditary monarchy is an outdated form of government.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
+    { "question": "Achieving Libertarian society through Electoral means is ideal.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
   
-    { "question": "I agree with the principles of Noocracy.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
+    
   
-    { "question": "Even the poor should have a chance to become a leader of the nation.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 10, "disun": 0 }},
+    { "question": "Negative consequences of a revolution, such as devastation of land and death tolls, generally outweigh whatever positives.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
     
 //[8] Unity
-    { "question": "Authoritarians should work toghether for a common goal.", "effect":{
+    { "question": Libertarians should work toghether for a common goal.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": -10 }},
   
-    { "question": "Governmental issues are more significant than economic and cultural issues.", "effect":{
+    { "question": "Issues related to personal freedom are more significant than economic and cultural issues.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": -10 }},
   
-    { "question": "An ideal society can only be achieved through working toghether with different people.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": -10 }},
+    { "question": "An ideal society can only be achieved by making a compromises with different people.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": -10 }},
     
 // [8] Disunity
     { "question": "People with opposite economic beliefs from me are often incorrect.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 10 }},
   
-    { "question": "I prefer Left-Unity/Right-Unity over Auth-Unity.", "effect":{
+    { "question": "I prefer Left-Unity/Right-Unity over Lib-Unity.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 10 }},
     
-    { "question": "Authoritarian Socialists and Authoritarian Capitalists are too different to work toghether.", "effect":{
+    { "question": "Libertarian Socialists and Libertarian Capitalists are too different to work toghether.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 10 }}
     
     ];
