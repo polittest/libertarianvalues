@@ -26,6 +26,9 @@ questions = [
     { "question": "Not everyone should be allowed to make economic decisions.", "effect":{
     "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
+{ "question": "Economic organizations need some vertical structure.", "effect":{
+    "olig": -10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
     { "question": "Slavery if made by voluntary contract is compatible with libertarianism.", "effect":{
     "olig": -10, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
