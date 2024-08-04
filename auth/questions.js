@@ -8,7 +8,7 @@ questions = [
     "olig": 10, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
     { "question": "Workers should have more say in the workplace.", "effect":{
-    "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 10, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
     { "question": "There should be no managers with authority over workers.", "effect":{
     "olig": 10, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -64,8 +64,8 @@ questions = [
     { "question": "Theft can never be justified.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
 
- { "question": "Capitalists should get their share of profit, because they took risk.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+ { "question": "Investors and business owners should get their share of profit, because they took risk.", "effect":{
+    "olig": 0, "civil": -20, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "If someone owns a piece of land, they should be able to set own rules on it.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -85,8 +85,8 @@ questions = [
     { "question": "Decentrally planned economy is better than market economy.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
-    { "question": "Mixed economy is better than a free market one.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "Mixed economy is better than fully free market one.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Market economies are inefficient.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -96,9 +96,9 @@ questions = [
   
 //[3] Markets
     { "question": "The market will regulate itself.", "effect":{
-    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-    { "question": "The freerer the market the freerer the people.", "effect":{
     "olig": 0, "civil": 0, "elit": -5, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    { "question": "The freerer the market the freerer the people.", "effect":{
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Trade between individuals should be the basis of our economy.", "effect":{
     "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -124,8 +124,10 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
 { "question": "World federalism is generally good idea.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-    
+    "olig": 0, "civil": 0, "elit": 0, "preve": 20, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+  
+  { "question": "There should be no place for patriotism and nationalism in libertarian society.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},    
 //[4] Nation
     { "question": "I oppose state interventionism in other countries.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -133,11 +135,11 @@ questions = [
       
     { "question": "National liberation is important.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-{ "question": "Countries, communes or similar should be allowed to act as gated communities for certain cultures", "effect":{
+{ "question": "Communes, cities or similar should be allowed to act as gated communities for certain cultures", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 { "question": "Global free trade is generally bad.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-    
+
 //[5] Statism
    
   
@@ -243,6 +245,6 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 10 }},
     
     { "question": "Libertarian Socialists and Libertarian Capitalists are too different to work toghether.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 10 }}
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 10 }}
     
     ];
