@@ -139,8 +139,7 @@ questions = [
     "olig": 0, "civil": 0, "elit": 10, "preve": -10, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
 //[5] Statism
-    { "question": "No Government, if there even is one, should bailout corporate power.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+   
   
    { "question": "Bureaucracy is necessary for libertarianism.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -152,6 +151,8 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[5] Acracy
+ { "question": "No Government, if there even is one, should bailout corporate power.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     { "question": "Ideally government would not exist.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 { "question": "Police and other hierarchical law and justice organizations should be abolished.", "effect":{
@@ -164,6 +165,8 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     { "question": "Law should be less complex, if it exists at all.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+{ "question": "Stateless classless society would be ideal.", "effect":{
+    "olig": 5, "civil": 5, "elit": 0, "preve": 0, "diver": -5, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[6] Theocracy (Rule-Over)
     { "question": "You cannot be a libertarian, without striving towards social progress.", "effect":{
