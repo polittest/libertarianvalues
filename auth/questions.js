@@ -141,18 +141,17 @@ questions = [
 //[5] Statism
    
   
-   { "question": "Bureaucracy is necessary for libertarianism.", "effect":{
+   { "question": "Bureaucracy is necessary for libertarian state.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Strong state is necessary to protect liberty.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 20, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 30, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
-    { "question": "Unitary government is better than federal one.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    
   
 //[5] Acracy
  { "question": "No Government, if there even is one, should bailout corporate power.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     { "question": "Ideally government would not exist.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 { "question": "Police and other hierarchical law and justice organizations should be abolished.", "effect":{
@@ -186,12 +185,18 @@ questions = [
 
 //[6] Progress 
     { "question": "Local culture is important.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -20, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+
+   { "question": "Progress always leads to authoritarianism.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Progress for sake of itself is pointless.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
      { "question": "We should return to pre-liberal pre-capitalist way of living.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -20, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+
+{ "question": "We should not attempt to mess with nature.", "effect":{
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
   
     
     
