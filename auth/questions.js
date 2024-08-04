@@ -93,9 +93,17 @@ questions = [
     { "question": "Market economies are inefficient.", "effect":{
     "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
    { "question": "We should produce based on need and use not commodity.", "effect":{
-    "olig": 0, "civil": 0, "elit": 20, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 10, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
+{ "question": "All workplaces should have organization(s) representing workers, for example unions or worker councils.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
+{ "question": "Economy needs coordination.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
-  
+  { "question": "Basic utilities should not be left to the market.", "effect":{
+    "olig": 0, "civil": 0, "elit": 10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+
 //[3] Markets
     { "question": "The market will regulate itself.", "effect":{
     "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
