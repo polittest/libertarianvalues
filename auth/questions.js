@@ -57,15 +57,15 @@ questions = [
 { "question": "Inheritance of anything that is not personal possession is illegitimate.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
- //[2] Propertarian here theft revolution
+ //[2] Propertarian
     { "question": "Without property rights there are no rights at all.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": -5, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 5 }},
   
     { "question": "Theft can never be justified.", "effect":{
-    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
+    "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -5, "disun": 0 }},
 
  { "question": "Investors and business owners should get their share of profit, because they took risk.", "effect":{
-    "olig": 0, "civil": -20, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": -15, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "If someone owns a piece of land, they should be able to set own rules on it.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -95,7 +95,7 @@ questions = [
   
 //[3] Markets
     { "question": "The market will regulate itself.", "effect":{
-    "olig": 0, "civil": 0, "elit": -5, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     { "question": "The freerer the market the freerer the people.", "effect":{
     "olig": 0, "civil": 0, "elit": -10, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
