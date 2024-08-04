@@ -78,8 +78,7 @@ questions = [
     { "question": "Independent labor organizations shouldn't be allowed to exist without employer's consent.", "effect":{
     "olig": -10, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 
-     { "question": "The survival of the fittest is an ordinary, and we shouldn't stop it.", "effect":{
-    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+     
 
 //[3] Planning
     { "question": "Decentrally planned economy is better than market economy.", "effect":{
