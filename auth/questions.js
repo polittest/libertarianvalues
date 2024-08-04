@@ -46,7 +46,7 @@ questions = [
     { "question": "From each according to his ability, to each according to his needs.", "effect":{
     "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   { "question": "Wage labour should be less common, if not fully abolished.", "effect":{
-    "olig": 0, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": -10, "civil": 10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     
     
     { "question": "Mutual aid and/or welfare is generally better than charity.", "effect":{
@@ -59,7 +59,7 @@ questions = [
   
  //[2] Propertarian
     { "question": "Without property rights there are no rights at all.", "effect":{
-    "olig": 0, "civil": -5, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 5 }},
+    "olig": 0, "civil": -5, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": 0, "disun": 10 }},
   
     { "question": "Theft can never be justified.", "effect":{
     "olig": 0, "civil": -10, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -5, "disun": 0 }},
@@ -142,7 +142,7 @@ questions = [
 //[5] Statism
    
   
-   { "question": "Bureaucracy is necessary for libertarian state.", "effect":{
+   { "question": "Some bureaucracy is necessary for libertarian society.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
     { "question": "Strong state is necessary to protect liberty.", "effect":{
@@ -157,7 +157,7 @@ questions = [
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 { "question": "Police and other hierarchical law and justice organizations should be abolished.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
-{ "question": "People can take care of each other without help or protection from government.", "effect":{
+{ "question": "People can take care of each other without help or protection from the government.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
     { "question": "We should abolish taxes.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
@@ -166,7 +166,7 @@ questions = [
     { "question": "Law should be less complex, if it exists at all.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
 { "question": "Stateless classless society would be ideal.", "effect":{
-    "olig": 5, "civil": 5, "elit": 0, "preve": 0, "diver": -5, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
+    "olig": 5, "civil": 10, "elit": 0, "preve": 0, "diver": -10, "ruleund": 0, "bestsuit": 0, "disun": 0 }},
   
 //[6] Theocracy (Rule-Over)
     { "question": "You cannot be a libertarian, without striving towards social progress.", "effect":{
@@ -194,7 +194,7 @@ questions = [
     { "question": "Progress for sake of itself is pointless.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
      { "question": "We should return to pre-liberal pre-capitalist way of living.", "effect":{
-    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
+    "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -20, "bestsuit": 0, "disun": 0 }},
 
 { "question": "We should not attempt to mess with nature.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": -10, "bestsuit": 0, "disun": 0 }},
@@ -218,7 +218,7 @@ questions = [
     { "question": "Rapid systematic change only results in worse outcomes.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
   
-    { "question": "Achieving Libertarian society through Electoral means is ideal.", "effect":{
+    { "question": "Revolution is always authoritarian.", "effect":{
     "olig": 0, "civil": 0, "elit": 0, "preve": 0, "diver": 0, "ruleund": 0, "bestsuit": -10, "disun": 0 }},
   
     
